@@ -80,9 +80,7 @@ namespace DatabaseSchemeBuilder
             {
                 Console.WriteLine(Encryption.SymmetricEncryption.Decrypt(log.MessagePosted, "Yp3s6v9y$B&E)H@McQfTjWnZq4t7w!z%", log.IV));
             }
-
-
-
+            
         }
     }
 }

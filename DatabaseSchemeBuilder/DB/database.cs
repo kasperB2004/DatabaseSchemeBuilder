@@ -24,7 +24,7 @@ namespace DatabaseSchemeBuilder.DB
         public virtual DbSet<siteList> SiteLists { get; set; }
         public virtual DbSet<PrefixList> PrefixLists { get; set; }
         public virtual DbSet<RemovePunishment> RemovePunishments { get; set; }
-        public virtual DbSet<PremuimSettings> PremuimSettings { get; set;}
+        public virtual DbSet<PremuimSettingsAdmin> PremuimSettings { get; set;}
         public virtual DbSet<Logs> Logs { get; set; }
         public virtual DbSet<LogSettings> LogSettings { get; set; }
         public virtual DbSet<EnabledSettings> EnabledSettings { get; set; } 
@@ -32,6 +32,9 @@ namespace DatabaseSchemeBuilder.DB
         public virtual DbSet<EmailSettings> EmailSettings { get; set; }
         public virtual DbSet<CreditCardSettings> CreditCardSettings { get; set; }
         public virtual DbSet<PostcodeSettings> PostcodeSettings { get; set; }
+        public virtual DbSet<UserVotes> UserVotes { get; set; }
+        public virtual DbSet <PhoneNumberSettings> PhoneNumberSettings { get; set; }
+        public virtual DbSet <PremiumSettings> PremiumSettings { get; set; }
 
 
 

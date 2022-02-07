@@ -28,6 +28,10 @@ namespace DatabaseSchemeBuilder.DB
         public EmailSettings EmailSettings { get; set; } = new EmailSettings();
         public CreditCardSettings CreditCardSettings { get; set; } = new CreditCardSettings();
         public PostcodeSettings postcodeSettings { get; set; } = new PostcodeSettings();
+        public PhoneNumberSettings phoneNumberSettings { get; set; } = new PhoneNumberSettings();
+        public PremiumSettings premiumSettings { get; set; } = new PremiumSettings();
+       
+
 
 
 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DatabaseSchemeBuilder.DB
 {
-    public class PremuimSettings
+    public class PremuimSettingsAdmin
     {
         [Key]
         public int Id { get; set; }
